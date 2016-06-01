@@ -8,7 +8,6 @@
     "build:legacy": "browserify src/legacy.js > dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
     "build": "npm run build:vue & npm run build:legacy && wait"
   },
-  "author": "edgar.schnueriger",
   "license": "MIT",
   "dependencies": {
     "vue": "^1.0.24"
