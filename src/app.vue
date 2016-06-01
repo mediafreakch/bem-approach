@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <my-button></my-button>
+    <r-panel></r-panel>
   </div>
 </template>
 
 <script>
-  var myButton = require('button');
+  var rPanel =  require('panel');
 
   module.exports = {
-    components: { myButton }
+    components: {
+      "r-panel": rPanel
+    }
   };
 </script>
