@@ -16,6 +16,9 @@
   If you only want to use a private/project theme, use "private"
 */
 
+/* Util */
+@pull: 'ricardo-theme-common';
+
 /* Elements */
 @button: 'ricardo-theme-common';
 
