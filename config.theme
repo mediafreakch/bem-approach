@@ -21,6 +21,7 @@
 
 /* Components */
 @panel: 'ricardo-theme-common';
+@pricebox: 'ricardo-theme-common';
 
 /* Pages */
 // @site     : 'ricardo-theme-common';
