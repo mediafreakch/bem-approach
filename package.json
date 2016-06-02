@@ -6,10 +6,15 @@
   "scripts": {
     "build:vue": "browserify src/index.js > dist/build.js",
     "build:legacy": "browserify src/legacy.js > dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
-    "build": "npm run build:vue & npm run build:legacy && wait"
+    "build": "npm run build:vue & npm run build:legacy && wait",
+    "watch:vue": "watchify -v -d src/index.js -o dist/build.js",
+    "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
+    "watch": "npm run watch:vue & npm run watch:legacy && wait"
   },
   "license": "MIT",
   "dependencies": {
+    "ricardo-theme-common": "^1.0.0",
+    "ricardo-theming": "^1.0.0",
     "vue": "^1.0.24"
   },
   "devDependencies": {
@@ -21,7 +26,8 @@
     "less-css-stream": "^1.0.0",
     "parcelify": "^2.1.0",
     "uglify-js": "^2.6.2",
-    "vueify": "^8.5.1"
+    "vueify": "^8.5.1",
+    "watchify": "^3.7.0"
   },
   "browserify": {
     "transform": [

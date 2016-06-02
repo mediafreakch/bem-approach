@@ -1,0 +1,49 @@
+/*******************************
+        Config
+*******************************/
+
+/*
+  Docs: http://learnsemantic.com/developing/customizing.html#setting-global-variables
+*/
+
+/*-------------------
+ Theme selection
+---------------------*/
+
+/*
+  (Required)
+  Set which theme to use for which component.
+  If you only want to use a private/project theme, use "private"
+*/
+
+/* Elements */
+@button: 'ricardo-theme-common';
+
+/* Components */
+@panel: 'ricardo-theme-common';
+
+/* Pages */
+// @site     : 'ricardo-theme-common';
+
+/*-------------------
+ Additional configuration
+---------------------*/
+
+/*
+  Configure where you host your plugins, components and project specific stylings.
+  Paths are relative to the location of this theme.config file.
+  The order of the paths specified below is the order in which LESS variables will be loaded.
+*/
+
+// Path to your public NPM modules (usually where you install themes and shared FrontendComponents into)
+@publicThemeFolder : 'node_modules';
+// Path to your project specific theme variables
+@projectThemeFolder : 'src/styles/theme';
+
+/*-------------------
+ Initialization - Don't touch unless you know what you do
+---------------------*/
+
+@import "@{publicThemeFolder}/ricardo-theming/theme.less";
+
+/* End Config */
