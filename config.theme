@@ -17,10 +17,11 @@
 */
 
 /* Util */
-@pull: 'ricardo-theme-common';
+@util-pull: 'ricardo-theme-common';
 
 /* Elements */
 @button: 'ricardo-theme-common';
+@typo: 'ricardo-theme-common';
 
 /* Components */
 @panel: 'ricardo-theme-common';
