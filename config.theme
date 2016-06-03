@@ -18,6 +18,8 @@
 
 /* Util */
 @util-pull: 'ricardo-theme-common';
+@util-box: 'ricardo-theme-common';
+@util-clearfix: 'ricardo-theme-common';
 
 /* Elements */
 @button: 'ricardo-theme-common';
@@ -43,7 +45,7 @@
 // Path to your public NPM modules (usually where you install themes and shared FrontendComponents into)
 @publicThemeFolder : 'node_modules';
 // Path to your project specific theme variables
-@projectThemeFolder : 'src/styles/theme';
+@projectThemeFolder : 'src/styles';
 
 /*-------------------
  Initialization - Don't touch unless you know what you do

@@ -42,3 +42,17 @@
   margin-top: @multiplicator * @default-spacing-element * @default-headline-height-factor - @correction;
   margin-bottom: @multiplicator * @default-spacing-element - @correction;
 }
+
+/*******************************************
+          Misc helpers
+********************************************/
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
