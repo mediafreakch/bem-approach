@@ -3,7 +3,7 @@
         TODO: check with UX to add it to the styleguide
         TODO: check if we need to add an entry for font-weight: normal
  ******************************/
-@font-import: {
+@font-face-helper: {
   @font-face {
     font-family: 'MetaOT';
     src: url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.7400d0f8.eot') format('embedded-opentype'),
