@@ -1,5 +1,3 @@
-@import (reference) "boxmodel.attributes";
-
 /*******************************************
           Helper for text elements
 ********************************************/
