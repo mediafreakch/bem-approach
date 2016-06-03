@@ -1,0 +1,4 @@
+@font-size-small: 12px;
+@font-size-xsmall: @default-font-size * 0.5;
+@font-size-currency: 10px;
+@font-size-price: 18.9px;
