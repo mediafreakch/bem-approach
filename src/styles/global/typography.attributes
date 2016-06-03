@@ -1,0 +1,35 @@
+/******************************
+        font definition
+        TODO: check with UX to add it to the styleguide
+        TODO: check if we need to add an entry for font-weight: normal
+ ******************************/
+@font-face-helper: {
+  @font-face {
+    font-family: 'MetaOT';
+    src: url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.7400d0f8.eot') format('embedded-opentype'),
+    url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.80e4c456.woff') format('woff'),
+    url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.e0d72ff7.ttf')  format('truetype');
+  }
+  @font-face {
+    font-family: 'MetaOT';
+    src: url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.e8751075.eot') format('embedded-opentype'),
+    url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.eabf37b3.woff') format('woff'),
+    url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.30c37ea3.ttf')  format('truetype');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'ricardo-icon-font';
+    src: url("//pics.ricardostatic.ch/assets/ricardo-icon-font.e5a43eb5.eot?#iefix") format("embedded-opentype"),
+    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.671a87a0.woff") format("woff"),
+    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.e3e3b039.ttf") format("truetype");
+  }
+
+};
+
+// TODO: check with UX about the fallback fonts
+@default-font-family: MetaOT, sans-serif;
+
+@font-size-small: 12px;
+@font-size-xsmall: 10px;
+@font-size-currency: 10px;
+@font-size-price: 18.9px;

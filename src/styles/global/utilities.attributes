@@ -1,0 +1,58 @@
+/*******************************************
+          Helper for text elements
+********************************************/
+// Add this mixin to text elements
+.textElementHelper(@font-size, @line-height, @margin) {
+  @correction: 0.5 * (@line-height - 1) * @font-size;
+
+  font-size: @font-size;
+  line-height: @line-height;
+  margin-top: -@correction;
+  margin-bottom: @margin - @correction;
+}
+
+// Add this mixin if the text element is the last element of a component
+.lastTextElementHelper(@font-size, @line-height) {
+  margin-bottom: -0.5 * (@line-height - 1) * @font-size !important;
+}
+
+/*******************************************
+          Helper for block elements
+********************************************/
+// Add this mixin to block elements
+.blockElementHelper(@margin, @padding) {
+  padding: @padding;
+  margin-bottom: @margin;
+}
+// Add this mixin if the block element is the last element of a component
+.lastBlockElementHelper() {
+  margin-bottom: 0 !important;
+}
+
+/*******************************************
+          Helper for heading elements
+********************************************/
+// Add this mixing to heading elements
+.headingElement(@multiplicator) {
+  @font-size: @default-font-size * @multiplicator;
+  @correction: 0.5 * (@default-headline-height-factor - 1) * @font-size;
+
+  font-size: @font-size;
+  line-height: @default-headline-height-factor;
+  margin-top: @multiplicator * @default-spacing-element * @default-headline-height-factor - @correction;
+  margin-bottom: @multiplicator * @default-spacing-element - @correction;
+}
+
+/*******************************************
+          Misc helpers
+********************************************/
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
