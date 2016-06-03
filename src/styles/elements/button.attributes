@@ -1,0 +1,2 @@
+@form-elements-spacing: @default-spacing-element;
+@form-elements-basesize: @default-spacing-element;
