@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <r-panel></r-panel>
+    <price-box></price-box>
   </div>
 </template>
 
 <script>
-  var rPanel =  require('panel');
+  var pricebox = require('pricebox');
 
   module.exports = {
     components: {
-      "r-panel": rPanel
+      "price-box": pricebox
     }
   };
 </script>
