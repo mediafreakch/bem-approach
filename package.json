@@ -9,7 +9,9 @@
     "build": "npm run build:vue & npm run build:legacy && wait",
     "watch:vue": "watchify -v -d src/index.js -o dist/build.js",
     "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
-    "watch": "npm run watch:vue & npm run watch:legacy && wait"
+    "watch": "npm run watch:vue & npm run watch:legacy && wait",
+    "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
+    "livereload": "live-reload --port 9091 ./dist/"
   },
   "license": "MIT",
   "dependencies": {
@@ -24,9 +26,11 @@
     "babel-runtime": "^6.9.2",
     "browserify": "^13.0.1",
     "less-css-stream": "^1.0.0",
+    "live-reload": "^1.1.0",
     "parcelify": "^2.1.0",
     "uglify-js": "^2.6.2",
     "vueify": "^8.5.1",
+    "watch": "^0.18.0",
     "watchify": "^3.7.0"
   },
   "browserify": {
