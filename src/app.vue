@@ -14,6 +14,7 @@
   var alert = require('alert');
   var pricebox = require('pricebox');
   var elements = require('elements');
+  var typo = require('typo-elements');
 
   module.exports = {
     components: {
