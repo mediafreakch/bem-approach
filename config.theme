@@ -25,6 +25,7 @@
 @button: 'ricardo-theme-common';
 @typo: 'ricardo-theme-common';
 @form-elements: 'ricardo-theme-common';
+@icon: 'icon';
 
 /* Components */
 @panel: 'ricardo-theme-common';

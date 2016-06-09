@@ -19,9 +19,9 @@
   }
   @font-face {
     font-family: 'ricardo-icon-font';
-    src: url("//pics.ricardostatic.ch/assets/ricardo-icon-font.e5a43eb5.eot?#iefix") format("embedded-opentype"),
-    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.671a87a0.woff") format("woff"),
-    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.e3e3b039.ttf") format("truetype");
+    src: url("//pics.ricardostatic.ch/assets/ricardo-icon-font.27b1e256g.eot?#iefix") format("embedded-opentype"),
+    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.53191d8f.woff") format("woff"),
+    url("//pics.ricardostatic.ch/assets/ricardo-icon-font.31eb3649.ttf") format("truetype");
   }
 
 };
