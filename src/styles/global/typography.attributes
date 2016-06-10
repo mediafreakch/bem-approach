@@ -1,25 +1,26 @@
 /******************************
         font definition
-        TODO: check with UX to add it to the styleguide
-        TODO: check if we need to add an entry for font-weight: normal
  ******************************/
-@font-face-helper: {
+@default-font-face: {
+
   @font-face {
     font-family: 'MetaOT';
-    src: url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.7400d0f8.eot') format('embedded-opentype'),
-    url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.80e4c456.woff') format('woff'),
-    url('https://pics.ricardostatic.ch/assets/MetaWeb-Book.e0d72ff7.ttf')  format('truetype');
+    src: url('//pics.ricardostatic.ch/assets/MetaWeb-Book.7400d0f8.eot?#iefix') format('embedded-opentype'),
+    url('//pics.ricardostatic.ch/assets/MetaWeb-Book.80e4c456.woff') format('woff'),
+    url('//pics.ricardostatic.ch/assets/MetaWeb-Book.e0d72ff7.ttf') format('truetype');
   }
+
   @font-face {
     font-family: 'MetaOT';
-    src: url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.e8751075.eot') format('embedded-opentype'),
-    url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.eabf37b3.woff') format('woff'),
-    url('https://pics.ricardostatic.ch/assets/MetaWeb-Bold.30c37ea3.ttf')  format('truetype');
+    src: url('//pics.ricardostatic.ch/assets/MetaWeb-Bold.e8751075.eot?#iefix') format('embedded-opentype'),
+    url('//pics.ricardostatic.ch/assets/MetaWeb-Bold.eabf37b3.woff') format('woff'),
+    url('//pics.ricardostatic.ch/assets/MetaWeb-Bold.30c37ea3.ttf') format('truetype');
     font-weight: bold;
   }
+
   @font-face {
     font-family: 'ricardo-icon-font';
-    src: url("//pics.ricardostatic.ch/assets/ricardo-icon-font.27b1e256g.eot?#iefix") format("embedded-opentype"),
+    src: url("//pics.ricardostatic.ch/assets/ricardo-icon-font.27b1e256.eot?#iefix") format("embedded-opentype"),
     url("//pics.ricardostatic.ch/assets/ricardo-icon-font.53191d8f.woff") format("woff"),
     url("//pics.ricardostatic.ch/assets/ricardo-icon-font.31eb3649.ttf") format("truetype");
   }

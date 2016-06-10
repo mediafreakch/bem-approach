@@ -15,13 +15,15 @@
       <button class="btn btn-default"><span class="icon icon-{{icon}}"></span>button
         text
       </button>
-      <button class="btn btn-default"><span class="icon icon-{{icon}}"></span>EASLDFJASDF
+      <button class="btn btn-primary"><span class="icon icon-{{icon}}"></span>EASLDFJASDF
       </button>
-      <button class="btn btn-default"><span class="icon icon-{{icon}}"></span>pqgjy
+      <button class="btn btn-secondary"><span class="icon icon-{{icon}}"></span>pqgjy
       </button>
-      <button class="btn btn-default"><span class="icon icon-{{icon}}"></span>ÄÖÜÈÉÀ
+      <button class="btn btn-link"><span class="icon icon-{{icon}}"></span>ÄÖÜÈÉÀ
       </button>
-      <button class="btn btn-default"><span class="icon icon-{{icon}}"></span>ÄqEp
+      <button class="btn btn-bid"><span class="icon icon-{{icon}}"></span>ÄqEp
+      </button>
+      <button class="btn btn-buy"><span class="icon icon-{{icon}}"></span>ÄqEp
       </button>
     </div>
   </div>
