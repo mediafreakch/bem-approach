@@ -31,6 +31,7 @@
 @panel: 'ricardo-theme-common';
 @alert: 'ricardo-theme-common';
 @pricebox: 'ricardo-theme-common';
+@textsample: 'private';
 
 /* Pages */
 // @site     : 'ricardo-theme-common';
