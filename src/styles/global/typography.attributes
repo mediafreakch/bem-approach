@@ -30,7 +30,12 @@
 // TODO: check with UX about the fallback fonts
 @default-font-family: MetaOT, sans-serif;
 
-@font-size-small: 12px;
-@font-size-xsmall: 10px;
-@font-size-currency: 10px;
-@font-size-price: 18.9px;
+@root-font-size-xs: 14px;
+@root-font-size-ms: 14px;
+@root-font-size-sm: 14px;
+@root-font-size-md: 14px;
+@root-font-size-lg: 14px;
+@default-font-size: 1rem;
+@default-font-size-small: 0.8571428571rem;
+@default-font-size-xsmall: 0.7142857143rem;
+@default-font-size-large: 1.3571428571rem;
