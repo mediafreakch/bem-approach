@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <r-alert type="default" icon="icon-url"
-             button="{text: 'button text', action:'action'}">hello World
+    <r-alert type="default"><p slot="text">hello World</p>
     </r-alert>
-    <r-alert type="info"><strong>hello World</strong></r-alert>
-    <r-alert type="success" closable="true">hello World</r-alert>
-    <r-alert type="warning">hello World</r-alert>
-    <r-alert type="danger">
-      hello World
-      <button class="btn btn-default pull-right">button-text</button>
+    <r-alert type="info" icon="info"><p slot="text"><strong>hello World</strong></p></r-alert>
+    <r-alert type="success" closable="true" icon="checkmarkOval"><p slot="text">hello World</p></r-alert>
+    <r-alert type="warning">
+      <p slot="text">hello World</p>
+      <button slot="button" class="btn btn-submit pull-right">button-text</button>
+    </r-alert>
+    <r-alert type="danger" button="true" icon="alert">
+      <p slot="text">hello World</p>
+      <button slot="button" class="btn btn-submit pull-right">button-text</button>
+    </r-alert>
+    <r-alert type="danger" button="true" icon="stop" closable="true">
+      <p slot="text">Feta fromage bavarian bergkase. Cauliflower cheese monterey jack cheesy grin smelly cheese mozzarella say cheese ricotta say cheese. Fondue swiss cream cheese lancashire ricotta who moved my cheese stinking bishop boursin. Ricotta chalk and cheese.</p>
+      <p slot="text">Feta fromage bavarian bergkase. Cauliflower cheese monterey jack cheesy grin smelly cheese mozzarella say cheese ricotta say cheese. Fondue swiss cream cheese lancashire ricotta who moved my cheese stinking bishop boursin. Ricotta chalk and cheese.</p>
+      <button slot="button" class="btn btn-submit pull-right">button-text</button>
     </r-alert>
     <price-box></price-box>
     <div v-for="icon in icons" style="margin-bottom: 30px;">
