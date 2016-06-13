@@ -11,6 +11,8 @@
   margin-bottom: @margin - @correction;
 }
 
+@default-lineHeight-correction: 0.5 * (@default-line-height-factor - 1) * @default-font-size;
+
 /*******************************************
           Helper for components
 ********************************************/
