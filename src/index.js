@@ -1,6 +1,6 @@
 var Vue = require('vue'),
     VueRouter = require('vue-router'),
-    routing = require('app-routing'),
+    routing = require('app~routing'),
     app = require('./app.vue');
 
 // install Router first

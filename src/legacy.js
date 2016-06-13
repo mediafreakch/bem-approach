@@ -1,9 +1,9 @@
 var
-    utils = require('utils/legacy'),
+    utils = require('element~utils/legacy'),
     elements = require('elements/legacy'),
-    panel = require('panel/legacy'),
-    alerts = require('alert/legacy'),
-    pricebox = require('pricebox/legacy'),
-    typo = require('typo-elements/legacy');
+    panel = require('component~panel/legacy'),
+    alerts = require('component~alert/legacy'),
+    pricebox = require('component~pricebox/legacy'),
+    typo = require('element~typo/legacy');
 
 module.exports = {};

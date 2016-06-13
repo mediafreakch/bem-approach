@@ -6,7 +6,8 @@
 </template>
 
 <script>
-  var navigation = require('navigation');
+  var navigation = require('component~navigation'),
+      typo = require('element~typo');
 
   module.exports = {
     components: {
