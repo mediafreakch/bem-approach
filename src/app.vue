@@ -12,6 +12,7 @@
   module.exports = {
     components: {
       "r-navigation": navigation
-    }
+    },
+    replace: false
   };
 </script>
