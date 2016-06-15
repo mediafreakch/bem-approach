@@ -1,3 +1,4 @@
+@placeholder-color: @color-grey-30;
 @form-elements-spacing: @default-spacing-element;
 @form-elements-basesize: @default-spacing-element;
 @form-elements-border: {
