@@ -9,7 +9,7 @@
     "build": "npm run build:vue & npm run build:legacy && wait",
     "watch:vue": "watchify -v -d src/index.js -o dist/build.js",
     "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
-    "watch": "npm run watch:vue & npm run watch:legacy && wait",
+    "watch": "npm run watch:vue & npm run watch:legacy & npm run livereload && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
     "livereload": "live-reload --port 9091 ./dist/"
   },
@@ -18,6 +18,7 @@
     "ricardo-theme-common": "^1.0.0",
     "ricardo-theming": "^1.0.0",
     "vue": "^1.0.24",
+    "vue-resource": "^0.8.0",
     "vue-router": "^0.7.13"
   },
   "devDependencies": {
