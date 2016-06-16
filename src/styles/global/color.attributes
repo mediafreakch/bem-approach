@@ -24,6 +24,7 @@
 @color-red-10: #c60a3b;
 @color-red-11: lighten(@color-red-10, 55%);
 @color-red-12: #ae1d39;
+@color-red-13: #d84021;
 /* yellow */
 @color-yellow-10: #fbe61b;
 @color-yellow-11: lighten(@color-yellow-10, 40%);
@@ -98,3 +99,5 @@
 /* danger */
 @color-state-danger-primary: @color-red-10;
 @color-state-danger-secondary: @color-red-11;
+/* invalid */
+@color-state-invalid: @color-red-13;

@@ -9,3 +9,7 @@
   border-color: @color-cta-primary;
   box-shadow: 0 0 7.5px fade(@color-cta-primary, 25);
 };
+@form-elements-focus-invalid: {
+  border-color: @color-state-invalid;
+  box-shadow: 0 0 7.5px fade(@color-state-invalid, 25);
+};
