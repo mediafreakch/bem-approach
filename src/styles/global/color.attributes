@@ -91,7 +91,7 @@
 @color-state-info-primary: @color-blue-20;
 @color-state-info-secondary: @color-blue-22;
 /* success */
-@color-state-success-primary: @color-green-10;
+@color-state-success-primary: @color-green-12;
 @color-state-success-secondary: @color-green-11;
 /* warning */
 @color-state-warning-primary: @color-yellow-10;
