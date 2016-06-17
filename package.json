@@ -9,11 +9,11 @@
     "build": "npm run build:vue & npm run build:legacy && wait",
     "watch:vue": "watchify -v -d src/index.js -o dist/build.js",
     "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
-    "watch": "npm run watch:vue & npm run watch:legacy & npm run livereload && wait",
+    "watch": "npm run watch:vue & npm run watch:legacy && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
-    "livereload": "live-reload --port 9091 ./dist/",
-    "serve": "http-server ./ -p 8085 && npm run watch",
-    "serve:windows": "http-server ./ -p 8085"
+    "serve": "http-server ./ -p 8085",
+    "start": "npm run build && npm run serve",
+    "livereload": "live-reload --port 9091 ./dist/"
   },
   "license": "MIT",
   "dependencies": {
