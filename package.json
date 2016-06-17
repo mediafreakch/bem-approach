@@ -12,7 +12,8 @@
     "watch": "npm run watch:vue & npm run watch:legacy & npm run livereload && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
     "livereload": "live-reload --port 9091 ./dist/",
-    "serve": "http-server ./ -p 8085 && npm run watch"
+    "serve": "http-server ./ -p 8085 && npm run watch",
+    "serve:windows": "http-server ./ -p 8085"
   },
   "license": "MIT",
   "dependencies": {
