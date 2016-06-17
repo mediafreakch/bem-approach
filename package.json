@@ -12,10 +12,12 @@
     "watch": "npm run watch:vue & npm run watch:legacy && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
     "serve": "http-server ./ -p 8085",
-    "start": "npm run build && npm run serve"
+    "start": "npm run build && npm run serve",
+    "livereload": "live-reload --port 9091 ./dist/"
   },
   "license": "MIT",
   "dependencies": {
+    "http-server": "^0.9.0",
     "ricardo-theme-common": "^1.0.0",
     "ricardo-theming": "^1.0.0",
     "vue": "^1.0.24",
