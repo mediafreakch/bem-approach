@@ -1,2 +1,5 @@
 @default-spacing-element: 0.7142857143rem;
 @default-spacing-component: 1.0714285714rem;
+
+@no-border: 1px solid transparent;
+@white-border: 1px solid white;
