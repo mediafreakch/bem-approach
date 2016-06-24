@@ -17,9 +17,10 @@
 */
 
 /* Util */
-@util-pull: 'ricardo-theme-common';
-@util-box: 'ricardo-theme-common';
-@util-clearfix: 'ricardo-theme-common';
+@util-pull: 'private';
+@util-box: 'private';
+@util-clearfix: 'private';
+@util-grid: 'private';
 
 /* Elements */
 @button: 'ricardo-theme-common';
@@ -32,6 +33,8 @@
 @alert: 'ricardo-theme-common';
 @pricebox: 'ricardo-theme-common';
 @textsample: 'private';
+@header: 'private';
+@footer: 'private';
 
 /* Pages */
 // @site     : 'ricardo-theme-common';
