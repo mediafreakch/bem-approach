@@ -1,18 +1,24 @@
-var Vue = require('vue'),
-    VueRouter = require('vue-router'),
-    routing = require('app~routing'),
-    VueResource = require('vue-resource'),
-    app = require('./app.vue');
-
-// install Router first
-Vue.use(VueRouter);
-
+var
+  Vue = require('vue'),
+  App = require('./app.vue');
+  sync = require('vuex-router-sync').sync,
+  store = require('app~vuex').store,
+  router = require('app~routing');
+  VueResource = require('vue-resource');
+  
 // install REST API vue plugin
 Vue.use(VueResource);
 
-// use Router
-var router = new VueRouter();
-router.map(routing);
+// sync store between pages / routings
+sync(store, router);
+
 
 // init app using our router
-var routeHandler = router.start(app, 'body');
+router.start({
+  store: store,
+  components: {
+    App: App
+  }
+}, 'body');
+
+module.exports = {};

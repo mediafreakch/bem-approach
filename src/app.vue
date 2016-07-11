@@ -11,7 +11,9 @@
   var navigation = require('component~navigation'),
       header = require('component~header'),
       footer = require('component~footer'),
-      typo = require('element~typo');
+      typo = require('element~typo'),
+      store = require('app~vuex').store;
+
 
   module.exports = {
     components: {
@@ -19,6 +21,7 @@
       'r-header': header,
       'r-footer': footer
     },
+    store: store,
     replace: false
   };
 </script>

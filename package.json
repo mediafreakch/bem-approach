@@ -8,21 +8,26 @@
     "build:legacy": "browserify src/legacy.js > dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
     "build": "npm run build:vue & npm run build:legacy && wait",
     "watch:vue": "watchify -v -d src/index.js -o dist/build.js",
+    "watch:vue:win": "watch \"npm run build:vue\" ./src",
     "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
     "watch": "npm run watch:vue & npm run watch:legacy && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
     "serve": "http-server ./ -p 8085",
     "start": "npm run build && npm run serve",
+    "start:win": "parallelshell \"npm run watch:vue:win\" \"npm run livereload\"",
     "livereload": "live-reload --port 9091 ./dist/"
   },
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.9.0",
+    "promise": "^7.1.1",
     "ricardo-theme-common": "^1.0.0",
     "ricardo-theming": "^1.0.0",
     "vue": "^1.0.24",
     "vue-resource": "^0.8.0",
-    "vue-router": "^0.7.13"
+    "vue-router": "^0.7.13",
+    "vuex": "^1.0.0-rc",
+    "vuex-router-sync": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",
@@ -32,6 +37,7 @@
     "browserify": "^13.0.1",
     "less-css-stream": "^1.0.0",
     "live-reload": "^1.1.0",
+    "parallelshell": "^2.0.0",
     "parcelify": "^2.1.0",
     "uglify-js": "^2.6.2",
     "vueify": "^8.5.1",
