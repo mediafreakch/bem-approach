@@ -11,7 +11,6 @@
   var navigation = require('component~navigation'),
       header = require('component~header'),
       footer = require('component~footer'),
-      typo = require('element~typo'),
       store = require('app~vuex').store;
 
 
