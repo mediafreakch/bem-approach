@@ -11,6 +11,7 @@
   var navigation = require('component~navigation'),
       header = require('component~header'),
       footer = require('component~footer'),
+      typo = require('ricardo-element_typo'),
       store = require('app~vuex').store;
 
 

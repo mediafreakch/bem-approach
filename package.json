@@ -44,7 +44,6 @@
     "live-reload": "^1.1.0",
     "parallelshell": "^2.0.0",
     "parcelify": "^2.1.0",
-    "request": "^2.73.0",
     "uglify-js": "^2.6.2",
     "vueify": "^8.5.1",
     "watch": "^0.18.0",
