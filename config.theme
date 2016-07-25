@@ -35,6 +35,7 @@
 @textsample: 'private';
 @header: 'private';
 @footer: 'private';
+@inline-navigation: 'private';
 
 /* Pages */
 // @site     : 'ricardo-theme-common';
