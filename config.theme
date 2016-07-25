@@ -24,8 +24,8 @@
 
 /* Elements */
 @button: 'ricardo-theme-common';
-@typo: 'ricardo-theme-common';
-@form-elements: 'ricardo-theme-common';
+@typo: 'ricardo-theme-ricardo-next';
+@form-elements: 'ricardo-theme-ricardo-next';
 @icon: 'icon';
 
 /* Components */
