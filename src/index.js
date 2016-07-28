@@ -1,11 +1,11 @@
 var
   Vue = require('vue'),
-  App = require('./app.vue');
+  App = require('./app.vue'),
   sync = require('vuex-router-sync').sync,
   store = require('app_vuex').store,
-  router = require('app_routing');
+  router = require('app_routing'),
   VueResource = require('vue-resource');
-  
+
 // install REST API vue plugin
 Vue.use(VueResource);
 
