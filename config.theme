@@ -16,29 +16,31 @@
   If you only want to use a private/project theme, use "private"
 */
 
+@active-theme: 'ricardo-theme-ricardo-next';
+
 /* Util */
-@util-pull: 'private';
-@util-box: 'private';
-@util-clearfix: 'private';
-@util-grid: 'private';
+@util-pull: @active-theme;
+@util-box: @active-theme;
+@util-clearfix: @active-theme;
+@util-grid: @active-theme;
 
 /* Elements */
-@button: 'ricardo-theme-common';
-@typo: 'ricardo-theme-ricardo-next';
-@form-elements: 'ricardo-theme-ricardo-next';
-@icon: 'icon';
+@button: @active-theme;
+@typo: @active-theme;
+@form-elements: @active-theme;
+@icon: @active-theme;
 
 /* Components */
-@panel: 'ricardo-theme-common';
-@alert: 'ricardo-theme-common';
-@pricebox: 'ricardo-theme-common';
-@textsample: 'private';
-@header: 'private';
-@footer: 'private';
-@inline-navigation: 'private';
+@panel: @active-theme;
+@alert: @active-theme;
+@pricebox: @active-theme;
+@textsample: @active-theme;
+@header: @active-theme;
+@footer: @active-theme;
+@inline-navigation: @active-theme;
 
 /* Pages */
-// @site     : 'ricardo-theme-common';
+// @site     : @active-theme;
 
 /*-------------------
  Additional configuration
