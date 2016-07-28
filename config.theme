@@ -25,7 +25,7 @@
 /* Elements */
 @button: 'ricardo-theme-common';
 @typo: 'ricardo-theme-common';
-@form-elements: 'private';
+@form-elements: 'ricardo-theme-common';
 @icon: 'icon';
 
 /* Components */
