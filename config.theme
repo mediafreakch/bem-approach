@@ -23,13 +23,13 @@
 @util-grid: 'private';
 
 /* Elements */
-@button: 'ricardo-theme-common';
-@typo: 'ricardo-theme-common';
-@form-elements: 'ricardo-theme-common';
+@button: 'ricardo-theme-ricardo-next';
+@typo: 'ricardo-theme-ricardo-next';
+@form-elements: 'ricardo-theme-ricardo-next';
 @icon: 'icon';
 
 /* Components */
-@panel: 'ricardo-theme-common';
+@panel: 'ricardo-theme-ricardo-next';
 @alert: 'ricardo-theme-common';
 @pricebox: 'ricardo-theme-common';
 @textsample: 'private';
