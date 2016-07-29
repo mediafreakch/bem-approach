@@ -10,7 +10,7 @@
     "build": "npm run build:vue & npm run build:legacy && wait",
     "watch:vue": "NODE_PATH=./node_modules watchify -v -d src/index.js -o dist/build.js",
     "watch:vue:win": "watch \"npm run build:vue\" ./src",
-    "watch:legacy": "watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
+    "watch:legacy": "NODE_PATH=./node_modules watchify src/legacy.js -o dist/build-legacy.js -p [ parcelify -o dist/bundle.css ]",
     "watch": "npm run watch:vue & npm run watch:legacy && wait",
     "watch:vue:windows": "watch \"npm run build:vue\" ./src/",
     "serve": "http-server ./ -p 8085",
