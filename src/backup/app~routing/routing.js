@@ -57,6 +57,9 @@ router.map( {
         component: require('sub~forgot-password')
       }
     }
+  },
+  '/panel': {
+    component: require('page_panel')
   }
 } );
 
