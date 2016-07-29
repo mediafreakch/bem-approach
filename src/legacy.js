@@ -1,9 +1,9 @@
 var
-    utils = require('element~utils/legacy'),
-    elements = require('element~form-elements/legacy'),
-    panel = require('component~panel/legacy'),
-    alerts = require('component~alert/legacy'),
-    pricebox = require('component~pricebox/legacy'),
-    typo = require('element~typo/legacy');
+    utils = require('ricardo-element_utils/legacy'),
+    elements = require('ricardo-element_form-elements/legacy'),
+    panel = require('ricardo-component_panel/legacy'),
+    alerts = require('ricardo-component_alert/legacy'),
+    pricebox = require('ricardo-component_pricebox/legacy'),
+    typo = require('ricardo-element_typo/legacy');
 
 module.exports = {};
