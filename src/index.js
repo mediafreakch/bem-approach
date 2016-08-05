@@ -5,7 +5,7 @@ var
   store = require('app_vuex').store,
   router = require('app_routing'),
   VueResource = require('vue-resource'),
-  trans = require('vue-translate');
+  l10n = require('vue-l10n');
 
 // install REST API vue plugin
 Vue.use(VueResource);
@@ -14,7 +14,7 @@ Vue.use(VueResource);
 sync(store, router);
 
 // use translation
-Vue.use(trans, { store: store });
+Vue.use(l10n);
 
 // init app using our router
 router.start({
