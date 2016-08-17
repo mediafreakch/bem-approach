@@ -8,7 +8,7 @@ dependencies:
   pre:
     - pip install awsebcli
     - npm install -g npm
-    - echo "registry=http://$NPM_USER:$NPM_PASS@npm.qxlricardo.com" > .npmrc
+    - echo -e "registry=http://npm.qxlricardo.com\n_auth=$NPM_AUTH\nalways-auth=true" > .npmrc
   post:
     - npm run build
 deployment:
