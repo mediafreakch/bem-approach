@@ -1,8 +1,8 @@
 {
   "name": "proton-example",
   "version": "0.2.6",
-  "description": "",
-  "main": "index.js",
+  "description": "Ricardo NEXT",
+  "main": "src/index.js",
   "scripts": {
     "setup": "mkdir -p dist cdn",
     "build:vue": "browserify src/index.js > dist/build.js",
@@ -17,7 +17,8 @@
     "serve": "node server.js",
     "start": "npm run serve",
     "start:win": "parallelshell \"npm run watch:vue:win\" \"npm run livereload\"",
-    "livereload": "live-reload --port 9091 ./dist/"
+    "livereload": "live-reload --port 9091 ./dist/",
+    "test": "echo \"No test specified. Continue anyway\" && exit 0"
   },
   "license": "MIT",
   "dependencies": {
