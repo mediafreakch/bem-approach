@@ -10,6 +10,7 @@ dependencies:
     - npm install -g npm
     - echo -e "registry=http://npm.qxlricardo.com\n_auth=$NPM_AUTH\nalways-auth=true" > .npmrc
   post:
+    - npm run setup
     - npm run build
 deployment:
   beta:
