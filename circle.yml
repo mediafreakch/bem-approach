@@ -20,4 +20,4 @@ deployment:
       - rm -r node_modules
       - NODE_ENV=production npm install
       - git add -f node_modules/ cdn/ dist/
-      - eb deploy --profile default --staged --debug -v
+      - eb deploy --profile default --staged
