@@ -1,6 +1,7 @@
 general:
   artifacts:
     - "coverage/"
+    - ~/.aws/config
   branches:
     ignore:
       - /^(?!master).*$/
