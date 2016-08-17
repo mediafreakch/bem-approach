@@ -21,6 +21,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
     "message-format": "^2.0.0",
     "promise": "^7.1.1",
     "ricardo-component_alert": "^1.0.0-alpha.4",
@@ -30,16 +33,14 @@
     "ricardo-element_icon": "^1.0.0-alpha.3",
     "ricardo-element_utils": "^1.0.0-alpha.8",
     "ricardo-theme-common": "^2.0.0",
+    "ricardo-theme-ricardo-next": "0.0.2-alpha.2",
     "ricardo-theming": "^1.0.0",
+    "throng": "^4.0.0",
     "vue": "^1.0.24",
     "vue-resource": "^0.8.0",
     "vue-router": "^0.7.13",
     "vuex": "https://github.com/vuejs/vuex/tarball/v2.0.0-rc.3",
-    "vuex-router-sync": "^2.0.0",
-    "debug": "^2.2.0",
-    "express": "^4.14.0",
-    "jade": "^1.11.0",
-    "throng": "^4.0.0"
+    "vuex-router-sync": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",
