@@ -10,7 +10,7 @@ machine:
 dependencies:
   pre:
     - pip install awsebcli
-    - npm install -g npm
+    - npm install -g npm@3.10.6
     - echo -e "registry=http://npm.qxlricardo.com\n_auth=$NPM_AUTH\nalways-auth=true" > .npmrc
   post:
     - npm run setup
