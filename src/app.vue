@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  var Vue = require('Vue'),
+  var Vue = require('vue'),
       normalize = require('ricardo-element_utils').normalize,
       navigation = require('component_navigation'),
       header = require('component_header'),
