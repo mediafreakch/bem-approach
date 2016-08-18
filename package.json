@@ -1,6 +1,6 @@
 {
   "name": "proton-example",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Ricardo NEXT",
   "main": "src/index.js",
   "scripts": {
@@ -75,7 +75,9 @@
           "presets": [
             "es2015"
           ],
-          "plugins": ["transform-object-assign"]
+          "plugins": [
+            "transform-object-assign"
+          ]
         }
       ]
     ]
