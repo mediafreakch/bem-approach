@@ -1,6 +1,6 @@
 {
   "name": "proton-example",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Ricardo NEXT",
   "main": "src/index.js",
   "scripts": {
