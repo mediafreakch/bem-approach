@@ -16,6 +16,8 @@
       typo = require('ricardo-element_typo'),
       store = require('app_vuex').store;
 
+  require('vue-click-outside');
+
   module.exports = {
     components: {
       'r-navigation': navigation,

@@ -32,12 +32,14 @@
     "ricardo-component_pricebox": "^1.0.0-alpha.1",
     "ricardo-element_form-elements": "^1.0.0-alpha.10",
     "ricardo-element_icon": "^1.0.0-alpha.3",
+    "ricardo-element_select-field": "^1.0.0-alpha.0",
     "ricardo-element_utils": "^1.0.0-alpha.8",
     "ricardo-theme-common": "^2.0.0",
     "ricardo-theme-ricardo-next": "0.0.2-alpha.2",
     "ricardo-theming": "^1.0.0",
     "throng": "^4.0.0",
     "vue": "^1.0.24",
+    "vue-click-outside": "^0.4.3",
     "vue-resource": "^0.8.0",
     "vue-router": "^0.7.13",
     "vuex": "https://github.com/vuejs/vuex/tarball/v2.0.0-rc.3",
@@ -65,7 +67,15 @@
   },
   "browserify": {
     "transform": [
-      "vueify"
+      "vueify",
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
     ]
   }
 }
